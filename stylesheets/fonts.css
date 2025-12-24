@@ -1,0 +1,6 @@
+@import url(/fonts/Benzin-Regular.woff);
+@font-face {
+  font-family: "Benzin-Regular";
+  src: url(../fonts/Benzin-Regular.woff);
+  font-style: normal;
+}
