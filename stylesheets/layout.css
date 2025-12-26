@@ -8,7 +8,7 @@ body {
   overflow: hidden;
 }
 .row {
-  padding: 1.5vw;
+  padding: 0.3vw;
   font-family: Benzin-Regular;
   font-size: 2.38vw;
   text-transform: uppercase;
@@ -39,29 +39,120 @@ body {
   height: 49.3vw;
   border: 0.78vw solid rgba(184, 206, 221, 1);
 }
+
+#move-row2 {
+  width: 100%;
+  overflow: hidden;
+}
+.row2 {
+  font-family: Benzin-Regular;
+  font-size: 4.3vw;
+  text-transform: uppercase;
+  width: 200%;
+  animation: move-row2 5s infinite linear;
+  margin-top: 10vw;
+}
+.row3 {
+  font-family: Benzin-Regular;
+  font-size: 4.3vw;
+  text-transform: uppercase;
+  width: 200%;
+  animation: move-row3 5s infinite linear;
+}
+.row4 {
+  font-family: Benzin-Regular;
+  font-size: 4.3vw;
+  text-transform: uppercase;
+  width: 200%;
+  animation: move-row2 5s infinite linear;
+}
+
+.block_section4 {
+  position: relative;
+  line-height: 1vw;
+}
+.stickerboom {
+  background-image: url(../images/sticker1.svg);
+}
+/* правый блок */
 .rightblock_section2 {
   position: relative;
   width: 50%;
-  height: 24.65vw;
+  height: 49.3vw;
+}
+.rightblock_section2 {
+  width: 50%;
+  height: 50.7vw;
+  display: flex;
+  flex-direction: column;
+}
+.rightblock_section2-1 {
+  position: relative;
+  width: 100%;
+  height: 25.35vw;
   background-color: rgba(231, 235, 201, 1);
-  overflow-y: hidden;
-  align-items: center;
+  align-content: center;
+}
+.rightblock_section2-1 span {
+  color: rgba(202, 142, 142, 1);
+}
+.rightblock_section2-1 p {
+  font-size: 1.87vw;
+  font-family: Benzin-Regular;
+  margin-left: 3.12vw;
+}
+.rightblock_section2-2 {
+  width: 100%;
+  height: 25.37vw;
   display: flex;
   flex-direction: row;
 }
-.rightblock_section2 p {
-  font-size: 1.8vw;
-  font-family: Benzin-Regular;
-  position: relative;
-  text-align: left;
-  padding-top: 1.5vw;
-}
 
-.rightblockstar {
-  position: relative;
-  width: 25%;
-  height: 24.65vw;
+.rightblock_section2-2 img {
+  width: 25vw;
+  margin-top: 3.2vw;
+}
+/* третий экран*/
+.pinkblock {
+  width: 50%;
   background-color: rgba(245, 211, 207, 1);
+}
+.blueblock {
+  width: 50%;
+  background-color: rgba(220, 233, 242, 1);
+  background-size: contain;
+}
+.block_section5 {
+  position: relative;
+  width: 100%;
+  height: 49.9vw;
+  background-size: contain;
+  margin-top: 7vw;
   display: flex;
   flex-direction: column;
+}
+.block_section5-1 {
+  display: flex;
+  flex-direction: column;
+  width: 34.31vw;
+  height: 25vw;
+  overflow: hidden;
+}
+.linesanimation {
+  width: 34.31vw;
+  height: 25vw;
+  position: absolute;
+  background-size: contain;
+}
+.allstickers {
+  width: 33.15vw;
+  height: 23.75vw;
+  background-color: rgba(245, 211, 207, 1);
+  border: 0.6vw solid rgba(184, 206, 221, 1);
+}
+.sticker2 {
+  margin-top: 6vw;
+}
+.sticker1 {
+  margin-left: 1vw;
 }
