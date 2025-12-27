@@ -1,1 +1,320 @@
+@media (max-width: 393px) {
+  body {
+    font-size: 4vw;
+    overflow-x: hidden;
+  }
 
+  .block_section2 {
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .leftblock_section2 {
+    width: 97%;
+    height: 97vw;
+    border: 1.5vw solid rgba(184, 206, 221, 1);
+    overflow: hidden;
+  }
+  .leftblock_section2 img {
+    width: 80vw;
+    height: 68vw;
+    margin-left: -10vw;
+  }
+  @keyframes perfume-move {
+    0% {
+      left: 40%;
+      top: 15%;
+      transform: scale(1);
+      z-index: 2;
+    }
+    33% {
+      left: 10%;
+      top: 10%;
+      transform: scale(1.3);
+      z-index: 1;
+    }
+    66% {
+      left: 70%;
+      top: 10%;
+      transform: scale(1);
+      z-index: 0;
+    }
+    84% {
+      z-index: 2;
+    }
+  }
+
+  .rightblock_section2 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .rightblock_section2-1 {
+    width: 100%;
+    height: 50vw;
+    overflow: hidden;
+  }
+
+  .rightblock_section2-1 p {
+    font-size: 3.5vw;
+    margin-left: 5vw;
+    max-width: 90%;
+    word-wrap: break-word;
+  }
+
+  .rightblock_section2-2 {
+    flex-direction: row;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .pinkblock {
+    width: 100%;
+    height: 50vw;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .camera img {
+    width: 50vw;
+    height: auto;
+    margin-top: 13vw;
+    max-width: 90%;
+    object-fit: contain;
+  }
+
+  .star {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 20vw;
+    margin-top: 20vw;
+    max-width: 90%;
+  }
+
+  .star img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .blueblock {
+    width: 100%;
+    height: 50vw;
+    overflow: hidden;
+  }
+
+  /* Блок 3 */
+  .row2,
+  .row3,
+  .row4 {
+    font-size: 8vw;
+    white-space: nowrap;
+  }
+
+  .stickerboom1 img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-top: -40vw;
+    object-fit: contain;
+  }
+
+  .block_section4 {
+    flex-direction: column;
+    margin-top: 10vw;
+    overflow: hidden;
+  }
+
+  .leftblock_section4 {
+    order: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .linesanimation {
+    width: 100%;
+    height: 60vw;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .allstickers {
+    width: 97%;
+    height: 60vw;
+    margin-top: 60vw;
+    border: 1.5vw solid rgba(184, 206, 221, 1);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .allstickers img {
+    width: 25vw;
+    height: 25vw;
+    max-width: 30vw;
+    object-fit: contain;
+  }
+
+  .sticker1 {
+    margin-left: 8vw;
+    margin-top: 15vw;
+    max-width: 30vw;
+  }
+
+  .sticker2 {
+    margin-left: 35vw;
+    margin-top: 15vw;
+    max-width: 30vw;
+  }
+
+  .sticker3 {
+    margin-left: 62vw;
+    margin-top: 15vw;
+    max-width: 30vw;
+  }
+
+  .box {
+    order: 2;
+    width: 99%;
+    height: 120vw;
+    margin-top: 5vw;
+    overflow: hidden;
+  }
+  .box p {
+    width: 30vw;
+  }
+
+  .words {
+    font-size: 3vw;
+    max-width: 90%;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+  .box-words {
+    height: 7vw;
+    max-width: 95%;
+    overflow: hidden;
+    width: 15vw;
+  }
+
+  .boximage1,
+  .boximage2,
+  .boximage3,
+  .boximage4,
+  .boximage5 {
+    width: 10vw;
+    height: 10vw;
+    max-width: 15vw;
+    object-fit: contain;
+  }
+
+  .row1 {
+    font-size: 5vw;
+    white-space: nowrap;
+  }
+
+  .block_section6 {
+    flex-direction: column-reverse;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .leftblock_section6 {
+    order: 1;
+    width: 100%;
+    margin-top: 10vw;
+    flex-direction: row;
+    overflow: hidden;
+    margin-left: 10vw;
+  }
+  .leftblock_section6 img {
+    width: 58vw;
+    height: 60vw;
+  }
+  .pshik img {
+    margin-left: -8vw;
+    margin-top: -18vw;
+  }
+  .rightblock_section6-1 {
+    width: 97vw;
+    height: 49vw;
+  }
+  .arrows img {
+    width: 250vw;
+    height: 50vw;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  @keyframes arrow {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .rightblock_section6-2 {
+    width: 400%;
+    height: 50vw;
+    border: 1.5vw solid rgba(220, 233, 242, 1);
+    overflow: hidden;
+  }
+
+  .slide img {
+    width: 280vw;
+    height: 50vw;
+    max-width: 100%;
+    object-fit: cover;
+    animation: slide 10s linear infinite;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(-280%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    width: 300vw;
+  }
+
+  .block_section2,
+  .block_section3,
+  .block_section4,
+  .block_section5,
+  .block_section6 {
+    overflow: hidden;
+  }
+
+  .perfume {
+    width: 40%;
+    left: 30%;
+    top: 10%;
+    transform: scale(1);
+    max-width: 50%;
+  }
+
+  #move-row,
+  #move-row1,
+  #move-row2 {
+    overflow: hidden;
+  }
+
+  .row,
+  .row1,
+  .row2,
+  .row3,
+  .row4 {
+    font-size: 5vw;
+    white-space: nowrap;
+  }
+}

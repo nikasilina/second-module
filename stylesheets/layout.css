@@ -1,7 +1,7 @@
 body {
   font-family: Benzin-Regular;
 }
-
+/* блок 1*/
 #move-row {
   background-color: rgba(255, 194, 194, 1);
   width: 100%;
@@ -15,6 +15,7 @@ body {
   width: 200%;
   animation: move-row 10s infinite linear;
 }
+/* блок 2*/
 .perfume {
   width: 22%;
   position: absolute;
@@ -38,47 +39,6 @@ body {
   width: 50%;
   height: 49.3vw;
   border: 0.78vw solid rgba(184, 206, 221, 1);
-}
-
-#move-row2 {
-  width: 100%;
-  overflow: hidden;
-}
-.row2 {
-  font-family: Benzin-Regular;
-  font-size: 4.3vw;
-  text-transform: uppercase;
-  width: 200%;
-  animation: move-row2 5s infinite linear;
-  margin-top: 10vw;
-}
-.row3 {
-  font-family: Benzin-Regular;
-  font-size: 4.3vw;
-  text-transform: uppercase;
-  width: 200%;
-  animation: move-row3 5s infinite linear;
-}
-.row4 {
-  font-family: Benzin-Regular;
-  font-size: 4.3vw;
-  text-transform: uppercase;
-  width: 200%;
-  animation: move-row2 5s infinite linear;
-}
-
-.block_section4 {
-  position: relative;
-  line-height: 1vw;
-}
-.stickerboom {
-  background-image: url(../images/sticker1.svg);
-}
-/* правый блок */
-.rightblock_section2 {
-  position: relative;
-  width: 50%;
-  height: 49.3vw;
 }
 .rightblock_section2 {
   width: 50%;
@@ -108,51 +68,271 @@ body {
   flex-direction: row;
 }
 
-.rightblock_section2-2 img {
-  width: 25vw;
-  margin-top: 3.2vw;
-}
-/* третий экран*/
 .pinkblock {
   width: 50%;
+  height: 25.37vw;
   background-color: rgba(245, 211, 207, 1);
+  background-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.camera img {
+  z-index: 1;
+  width: 25vw;
+  height: 22.18vw;
+  position: relative;
+  margin-top: 3.5vw;
+}
+.star {
+  width: 7vw;
+  height: 7vw;
+  z-index: 10;
+  position: absolute;
+  margin-left: 11.4vw;
+  margin-top: 10vw;
+  object-fit: contain;
+}
+.star img {
+  width: 7vw;
+  height: 7vw;
+  z-index: 10;
+  position: absolute;
+  object-fit: contain;
 }
 .blueblock {
   width: 50%;
   background-color: rgba(220, 233, 242, 1);
   background-size: contain;
 }
-.block_section5 {
+/* блок 3*/
+.block_section3 {
   position: relative;
-  width: 100%;
-  height: 49.9vw;
-  background-size: contain;
-  margin-top: 7vw;
-  display: flex;
-  flex-direction: column;
+  line-height: 1vw;
+  margin-top: 2vw;
 }
-.block_section5-1 {
-  display: flex;
-  flex-direction: column;
-  width: 34.31vw;
-  height: 25vw;
+#move-row2 {
+  width: 100%;
   overflow: hidden;
 }
+.row2 {
+  font-family: Benzin-Regular;
+  font-size: 4.3vw;
+  text-transform: uppercase;
+  width: 200%;
+  animation: move-row2 5s infinite linear;
+  margin-top: 10vw;
+}
+.row3 {
+  font-family: Benzin-Regular;
+  font-size: 4.3vw;
+  text-transform: uppercase;
+  width: 200%;
+  animation: move-row3 5s infinite linear;
+}
+.row4 {
+  font-family: Benzin-Regular;
+  font-size: 4.3vw;
+  text-transform: uppercase;
+  width: 200%;
+  animation: move-row2 5s infinite linear;
+}
+.stickerboom1 img {
+  z-index: 0;
+  margin-top: -31vw;
+  position: relative;
+  width: 98vw;
+  height: 37vw;
+}
+/* блок 4*/
+.block_section4 {
+  position: relative;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  margin-top: 8vw;
+}
+.leftblock_section4 {
+  display: flex;
+  flex-direction: column;
+}
 .linesanimation {
-  width: 34.31vw;
-  height: 25vw;
+  width: 44.55vw;
+  height: 31.15vw;
+  position: absolute;
+  background-size: contain;
+  background-color: rgba(245, 211, 207, 1);
+}
+.allstickers {
+  width: 42.8vw;
+  height: 31.25vw;
+  background-color: rgba(245, 211, 207, 1);
+  border: 0.6vw solid rgba(184, 206, 221, 1);
+  margin-top: 31.1vw;
+  overflow: hidden;
+}
+.allstickers img {
+  width: 11vw;
+  height: 11vw;
+  position: absolute;
+  object-fit: contain;
+}
+.sticker1 {
+  width: 11vw;
+  height: 11vw;
+  margin-left: 3vw;
+  margin-top: 6vw;
+}
+.sticker2 {
+  width: 11vw;
+  height: 11vw;
+  margin-top: 6vw;
+  margin-left: 15.5vw;
+}
+.sticker3 {
+  width: 11vw;
+  height: 11vw;
+  margin-left: 28vw;
+  margin-top: 6vw;
+}
+
+.box {
+  width: 68.7vw;
+  height: 62.42vw;
+  border: 0.6vw solid rgba(231, 235, 201, 1);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+/* общий класс для words */
+.words {
+  font-family: "Benzin-Regular";
+  font-size: 2.3vw;
+  color: black;
+}
+/* общий box-words */
+.box-words {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5vw;
+}
+/* цвета box-words */
+.green-box-words {
+  border: 0.6vw solid rgba(231, 235, 201, 1);
+}
+.rose-box-words {
+  border: 0.6vw solid rgba(245, 211, 207, 1);
+}
+.blue-box-words {
+  border: 0.6vw solid rgba(220, 233, 242, 1);
+}
+.boximage1 {
+  background-image: url(../images/boxstar1.svg);
+  width: 5vw;
+  height: 5vw;
+  background-repeat: no-repeat;
   position: absolute;
   background-size: contain;
 }
-.allstickers {
-  width: 33.15vw;
+.boximage2 {
+  background-image: url(../images/boxcircle2.svg);
+  width: 5vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+}
+.boximage3 {
+  background-image: url(../images/boxcircle3.svg);
+  width: 5vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+}
+.boximage4 {
+  background-image: url(../images/boxstar4.svg);
+  width: 5vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+}
+.boximage5 {
+  background-image: url(../images/boxcircle5.svg);
+  width: 5vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+}
+/* блок 5*/
+#move-row1 {
+  background-color: rgba(255, 194, 194, 1);
+  width: 100%;
+  overflow: hidden;
+}
+.row1 {
+  padding: 0.3vw;
+  font-family: Benzin-Regular;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  width: 300%;
+  animation: move-row 10s infinite linear;
+}
+/* блок 6*/
+.block_section6 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 47.5vw;
+}
+.leftblock_section6 {
+  width: 56%;
+  margin-top: 5.07vw;
+  position: relative;
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+}
+.leftblock_section6 img {
+  width: 40vw;
+  height: 38vw;
+  position: relative;
+}
+.pshik img {
+  width: 25.7vw;
+  position: relative;
+  margin-top: -10.4vw;
+  overflow: hidden;
+  margin-left: -8vw;
+}
+.rightblock_section6 {
+  width: 43.51vw;
+}
+.rightblock_section6-1 {
+  width: 43.51vw;
   height: 23.75vw;
-  background-color: rgba(245, 211, 207, 1);
-  border: 0.6vw solid rgba(184, 206, 221, 1);
+  background-color: rgba(232, 237, 196, 1);
+  overflow: hidden;
+  position: relative;
 }
-.sticker2 {
-  margin-top: 6vw;
+.rightblock_section6-1 img {
+  width: 133vw;
+  margin-top: -1.6vw;
 }
-.sticker1 {
-  margin-left: 1vw;
+.rightblock_section6-2 {
+  width: 42.36vw;
+  height: 23.75vw;
+  border: 0.6vw solid rgba(220, 233, 242, 1);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.slide img {
+  width: 261vw;
+  height: 23.04vw;
+  position: relative;
 }

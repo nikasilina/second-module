@@ -107,29 +107,390 @@
     background-image: url(../images/cat5.svg);
   }
 }
+/* 1 и 3-й стикеры в верх */
 .sticker1,
 .sticker3 {
-  animation: moveDown 2s ease-in infinite alternate;
+  animation: moveDown 1.3s ease-in infinite alternate;
 }
 
 /* 2-й стикер вниз */
 .sticker2 {
-  animation: moveUp 2s ease-in infinite alternate;
+  animation: moveUp 1.3s ease-in infinite alternate;
 }
 @keyframes moveUp {
   from {
-    transform: translateY(0);
+    transform: translateY(13vw);
   }
   to {
-    transform: translateY(-7vw);
+    transform: translateY(-5vw);
   }
 }
 
 @keyframes moveDown {
   from {
-    transform: translateY(0);
+    transform: translateY(-5vw);
   }
   to {
-    transform: translateY(7vw);
+    transform: translateY(13vw);
+  }
+}
+
+/* 1 box */
+.size-boxword1 {
+  width: 32.81vw;
+  transform: rotate(9.72deg);
+  transform-origin: bottom right;
+  animation: animation__boxword1 20s linear infinite;
+  margin-left: -0.5vw;
+}
+@keyframes animation__boxword1 {
+  0% {
+    bottom: 110%;
+  }
+  5% {
+    bottom: 0%;
+  }
+  93% {
+    bottom: 0%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+/* 2 box */
+.size-boxword2 {
+  width: 22.25vw;
+  animation: animation__boxword2 20s linear infinite;
+  margin-left: 30vw;
+  transform: rotate(-15.28deg);
+}
+@keyframes animation__boxword2 {
+  0% {
+    bottom: 190%;
+  }
+  8% {
+    bottom: 13%;
+  }
+  93% {
+    bottom: 13%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+/* 3 box */
+.size-boxword3 {
+  width: 27.57vw;
+  animation: animation__boxword3 20s linear infinite;
+  margin-left: 13vw;
+  transform: rotate(-9deg);
+}
+@keyframes animation__boxword3 {
+  0% {
+    bottom: 220%;
+  }
+  10% {
+    bottom: 16.5%;
+  }
+  93% {
+    bottom: 16.5%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+/* 4 box */
+.size-boxword4 {
+  width: 7.8vw;
+  animation: animation__boxword4 20s linear infinite;
+  margin-left: 41.1vw;
+  transform: rotate(18deg);
+}
+@keyframes animation__boxword4 {
+  0% {
+    bottom: 250%;
+  }
+  12% {
+    bottom: 20.2%;
+  }
+  93% {
+    bottom: 20.2%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword5 {
+  width: 7.8vw;
+  animation: animation__boxword5 20s linear infinite;
+  margin-left: 8.1vw;
+}
+@keyframes animation__boxword5 {
+  0% {
+    bottom: 250%;
+  }
+  12% {
+    bottom: 14%;
+  }
+  93% {
+    bottom: 14%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword6 {
+  width: 32.81vw;
+  transform: rotate(9.72deg);
+  transform-origin: bottom right;
+  animation: animation__boxword6 20s linear infinite;
+  margin-left: -0.5vw;
+}
+@keyframes animation__boxword6 {
+  0% {
+    bottom: 255%;
+  }
+  14% {
+    bottom: 25.5%;
+  }
+  93% {
+    bottom: 25.5%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword7 {
+  width: 22.25vw;
+  animation: animation__boxword7 20s linear infinite;
+  margin-left: 30vw;
+  transform: rotate(-17deg);
+}
+@keyframes animation__boxword7 {
+  0% {
+    bottom: 265%;
+  }
+  14.6% {
+    bottom: 39%;
+  }
+  93% {
+    bottom: 39%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword8 {
+  width: 27.57vw;
+  animation: animation__boxword8 20s linear infinite;
+  margin-left: 25vw;
+  transform: rotate(-9deg);
+}
+@keyframes animation__boxword8 {
+  0% {
+    bottom: 267%;
+  }
+  15% {
+    bottom: 37.4%;
+  }
+  93% {
+    bottom: 37.4%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword9 {
+  width: 27.57vw;
+  animation: animation__boxword9 20s linear infinite;
+  margin-left: 3.5vw;
+  transform: rotate(-11deg);
+}
+@keyframes animation__boxword9 {
+  0% {
+    bottom: 267%;
+  }
+  15% {
+    bottom: 43.2%;
+  }
+  93% {
+    bottom: 43.2%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword10 {
+  width: 27.57vw;
+  transform: rotate(49deg);
+  transform-origin: bottom right;
+  animation: animation__boxword10 20s linear infinite;
+  margin-left: -10vw;
+}
+@keyframes animation__boxword10 {
+  0% {
+    bottom: 272%;
+  }
+  18% {
+    bottom: 37%;
+  }
+  93% {
+    bottom: 37%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword11 {
+  width: 21vw;
+  animation: animation__boxword11 20s linear infinite;
+  margin-left: 18vw;
+  transform: rotate(7deg);
+}
+@keyframes animation__boxword11 {
+  0% {
+    bottom: 275%;
+  }
+  19% {
+    bottom: 48%;
+  }
+  93% {
+    bottom: 48%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword13 {
+  width: 33.28vw;
+  animation: animation__boxword13 20s linear infinite;
+  margin-left: 18.9vw;
+  transform: rotate(-16deg);
+}
+@keyframes animation__boxword13 {
+  0% {
+    bottom: 279%;
+  }
+  25% {
+    bottom: 64.6%;
+  }
+  93% {
+    bottom: 64.6%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.size-boxword12 {
+  width: 7.8vw;
+  animation: animation__boxword12 20s linear infinite;
+  margin-left: 40.1vw;
+  transform: rotate(18deg);
+}
+@keyframes animation__boxword12 {
+  0% {
+    bottom: 276%;
+  }
+  21% {
+    bottom: 46.4%;
+  }
+  93% {
+    bottom: 46.4%;
+  }
+  94% {
+    bottom: -60%;
+  }
+  100% {
+    bottom: -60%;
+  }
+}
+.star {
+  animation: scale 1s linear infinite;
+  z-index: 10;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pshik img {
+  animation: curtainNarrow 2s ease -1s infinite;
+}
+@keyframes curtainNarrow {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  50% {
+    clip-path: inset(0 0 0 0);
+  }
+  75% {
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    clip-path: inset(0 100% 0 0);
+  }
+}
+.rightblock_section6-1 img {
+  animation: arrow 2.5s linear infinite;
+}
+@keyframes arrow {
+  0% {
+    transform: translateX(-61%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.slide img {
+  animation: slide 13s linear infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }
